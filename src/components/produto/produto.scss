@@ -1,0 +1,54 @@
+
+
+.tabela{
+    h1{
+
+        background-color: orange;
+        padding: 20px;
+    }
+    table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        tr{
+            
+            display: flex;
+            justify-content: space-around;
+            border: 2px solid black;
+            border-collapse: collapse;
+            th{
+                width: 20%;
+                border-left: 2px solid black;
+                background: rgb(101, 101, 101);
+            }
+            
+
+            td{
+              width: 20%;
+              border-left: 2px solid black;
+              border-collapse: collapse;
+
+            }
+        
+        }
+        #total{
+            width: 82%;
+        }
+    }
+
+
+}
+
+.linha{
+   width: 50vw;
+}
+
+.par{
+    background-color: rgb(183, 182, 182);
+}
+tr{
+   
+}
+// table, th, td{
+//     border: 2px solid black;
+//     border-collapse: collapse;
+// }

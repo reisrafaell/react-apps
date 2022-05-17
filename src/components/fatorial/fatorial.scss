@@ -1,0 +1,32 @@
+.fatorial {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdc7c7;
+  border-radius: 10px;
+
+  h1 {
+    font-size: 2rem;
+
+    span {
+    
+      color: red;
+    }
+  }
+
+  input {
+    width: 18vw;
+    height: 30px;
+  }
+
+  h2 {
+    font-size: 2rem;
+
+    span {
+      color: red;
+    }
+  }
+}

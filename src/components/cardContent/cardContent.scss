@@ -1,0 +1,45 @@
+.CardContent{
+    background: rgb(223, 86, 37);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+
+    span{
+        position: relative;
+
+        button{
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            background-color: transparent;
+            border: 0;
+            font-size: 30px;
+        }
+    }
+
+    .title{
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+        background-color: gray;
+    }
+
+    .desc{
+        padding: 5px;
+        background-color: white;
+        border-bottom: solid 2px gray;
+    }
+
+    .body{
+        padding: 5px;
+        background-color: white;
+    }
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
